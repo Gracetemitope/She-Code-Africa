@@ -1,0 +1,48 @@
+/* body {
+  padding: 0;
+  margin: 0;
+} */
+
+.sidenav {
+  height: 100%;
+  width: 12.5rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: red;
+  box-shadow: 1px 1px 1px 1px rgba(218, 218, 218, 0.993);
+}
+.nav-items {
+  text-align: center;
+  margin-top: 4rem;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
+  display: block;
+  font-weight: 600px;
+}
+.sidenav a:hover {
+  color: rgb(189, 21, 21);
+}
+
+#main-doc {
+  margin-left: 12.5rem;
+  padding: 0px 10px;
+}
+
+/* media queries */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
