@@ -1,5 +1,5 @@
 # Technical-Page
-This is an imitation of the ruby guides documentation page (not responsive) for She Code Africa Level One html and css week  project
+This is a basic imitation of the ruby guides documentation page (not responsive) for She Code Africa Level One html and css week  project
 
 ![screenshot](./assets/SCAlevel.png)
 
@@ -51,8 +51,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- https://www.theodinproject.com/
-- https://www.thenextweb.com
+- https://www.freecodecamp.org/learn
+- https://guides.rubyonrails.org/getting_started.html
 
 ## 📝 License
 
