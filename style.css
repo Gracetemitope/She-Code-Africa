@@ -184,6 +184,19 @@ a {
   background: #ffffff;
   font-weight: 600;
 }
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  color: #ffffff;
+  text-align: center;
+}
+footer p {
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: bolder;
+}
 /* media queries */
 @media screen and (max-height: 450px) {
   .sidenav {
