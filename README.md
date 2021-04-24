@@ -1,5 +1,5 @@
 # Technical-Page
-This is an imitation of the ruby guides documentation page for She Code Africa Level One html and css week  project
+This is an imitation of the ruby guides documentation page (not responsive) for She Code Africa Level One html and css week  project
 
 ![screenshot](./assets/SCAlevel.png)
 
