@@ -9,24 +9,24 @@
 <body>
   <nav id="navbar">
     <div class="horizontal-nav-bar">
-    <header id="rails_guides">RAILSGUIDES</header>
-  </div>
+      <header id="rails_guides">RAILSGUIDES</header>
+    </div>
     <div class="sidenav">
       <div class="nav-items">
-      <a href="#" id="nav-link">Getting Started</a>
-      <a href="#" id="nav-link">Assumptions</a>
-      <a href="#" id="nav-link">What is Rails</a>
-      <a href="#" id="nav-link">Creating a rails app</a>
-    </div>
+        <a href="#" id="nav-link">Getting Started</a>
+        <a href="#" id="nav-link">Assumptions</a>
+        <a href="#" id="nav-link">What is Rails</a>
+        <a href="#" id="nav-link">Creating a rails app</a>
+      </div>
     </div>
   </nav>
   <main id="main-doc">
     <section class="main-section">
-      <header id="getting_started_with_rails">
-        Getting Started with Rails
-      </header>
       <div class="first-section">
         <div>
+          <header id="getting_started_with_rails">
+            Getting Started with Rails
+          </header>
           <p>This guide covers getting up and running with Ruby on Rails.</p>
           <p>After reading this guide, you will know:</p>
           <ul>
@@ -55,8 +55,8 @@
         </div>
       </div>
     </section>
-    <section class="main-section">
-      <header id="1_guide_assumptions">1 Guide Assumptions</header>
+    <section class="main-section second-section">
+      <header id="guide_assumptions">1 Guide Assumptions</header>
       <p>This guide is designed for beginners who want to get started with a Rails application from scratch. It does not
         assume that you have any prior experience with Rails.</p>
       <p>Rails is a web application framework running on the Ruby programming language. If you have no prior experience
@@ -70,8 +70,8 @@
       <p>Be aware that some resources, while still excellent, cover older versions of Ruby, and may not include some
         syntax that you will see in day-to-day development with Rails.</p>
     </section>
-    <section class="main-section">
-      <header id="2_what_is_rails">2 What is Rails?</header>
+    <section class="main-section second-section">
+      <header id="what_is_rails">2 What is Rails?</header>
       <article>Rails is a web application development framework written in the Ruby programming language. It is designed
         to make programming web applications easier by making assumptions about what every developer needs to get
         started. It allows you to write less code while accomplishing more than many other languages and frameworks.
@@ -92,17 +92,18 @@
           endless configuration files.</li>
       </ul>
     </section>
-    <section class="main-section">
-      <header id="3_creating_a_new_rails_project"><a href="">3 Creating a New Rails Project</a></header>
+    <section class="main-section second-section">
+      <header id="creating_a_new_rails_project">3 Creating a New Rails Project</header>
       <p>The best way to read this guide is to follow it step by step. All steps are essential to run this example
         application and no additional code or steps are needed.</p>
       <p>By following along with this guide, you'll create a Rails project called blog, a (very) simple weblog. Before
         you can start building the application, you need to make sure that you have Rails itself installed.</p>
 
-      <div>
-        <article>The examples below use $ to represent your terminal prompt in a UNIX-like OS, though it may have been
-          customized to appear differently. If you are using Windows, your prompt will look something like
-          C:\source_code>.</article>
+      <div class="mini-container">
+        <article>The examples below use <span>$</span> to represent your terminal prompt in a UNIX-like OS, though it
+          may have been customized to appear differently. If you are using Windows, your prompt will look something like
+          <span>C:\source_code></span>.
+        </article>
       </div>
       <h3>3.1 Installing Rails</h3>
       <p>Before you install Rails, you should check to make sure that your system has the proper prerequisites
@@ -113,30 +114,30 @@
         <li>Node.js</li>
         <li>Yarn</li>
       </ul>
-      <p>3.1.1 Installing Ruby</p>
+      <h3>3.1.1 Installing Ruby</h3>
       <article>Open up a command line prompt. On macOS open Terminal.app; on Windows choose "Run" from your Start menu
         and type cmd.exe. Any commands prefaced with a dollar sign $ should be run in the command line. Verify that you
         have a current version of Ruby installed:</article>
 
-      <div>
-        <p>$ ruby --version</p>
-        <p>ruby 2.5.0</p>
+      <div class="mini-container-2">
+        <p style="color: rgb(13, 13, 153);">$ <span style="color: rgb(107, 107, 216);">ruby</span> --version</p>
+        <p style="color: grey;">ruby 2.5.0</p>
       </div>
       <p>Rails requires Ruby version 2.5.0 or later. If the version number returned is less than that number (such as
         2.3.7, or 1.8.7), you'll need to install a fresh copy of Ruby.</p>
       <p>To install Rails on Windows, you'll first need to install <a href="">Ruby Installer.</a></p>
       <p>For more installation methods for most Operating Systems take a look at <a href="">ruby-lang.org.</a></p>
     </section>
-    <section class="main-section">
-      <header id="4_hello_rails"> <a href="">4 Hello, Rails!</a>
+    <section class="main-section second-section">
+      <header id="hello_rails">4 Hello, Rails!
       </header>
       <p>To begin with, let's get some text up on screen quickly. To do this, you need to get your Rails application
         server running.</p>
-      <a href="">4.1 Starting up the Web Server</a>
+      <h3>4.1 Starting up the Web Server</h3>
       <p>You actually have a functional Rails application already. To see it, you need to start a web server on your
         development machine. You can do this by running the following command in the blog directory:</p>
-      <div>
-        <p>$ bin/rails server</p>
+      <div class="mini-container-2 mini">
+        <p>$ <span  style="color: rgb(107, 107, 216);">bin/rails</span> server</p>
       </div>
     </section>
   </main>

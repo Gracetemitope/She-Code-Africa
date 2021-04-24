@@ -4,8 +4,9 @@ body {
 }
 
 header {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: bolder;
+  color: black;
 }
 #navbar {
   margin-left: 12rem;
@@ -21,7 +22,7 @@ header {
   width: 100%;
   height: 70px;
   background-color: red;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .sidenav {
@@ -54,22 +55,135 @@ header {
 }
 
 #main-doc {
-  margin-left: 12.8rem;
-  margin-right: 40px;
-  /* padding: 0px 10px; */
+  margin-left: 12.6rem;
 }
 
 .main-section {
-  /* margin-top: 30px; */
+  margin-bottom: 30px;
 }
 
 .first-section {
   display: flex;
-  /* flex-basis: auto; */
+  flex-basis: auto;
   justify-content: space-between;
-  margin-right
+  height: 30rem;
+  background: lightblue;
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
+.first-section > div {
+  margin-top: 4rem;
+  margin-right: 2rem;
+}
+/* .first-section {
+  height: 30rem;
+  background: lightblue;
+  width: 100%;
+
+} */
+
+.first-section > div:nth-child(1) p,
+.first-section > div:nth-child(1) ul li {
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.first-section > div:nth-child(2) {
+  background: hsl(0, 0%, 100%);
+  /* margin-bottom: 30px; */
+  height: auto;
+  /* text-align: center; */
+  /* margin: 20px; */
+}
+.first-section > div:nth-child(2) h2 {
+  text-align: center;
+}
+
+.first-section > div:nth-child(2) ul li {
+  line-height: 1.6rem;
+  color: red;
+}
+
+.first-section > div:nth-child(2) ul li a {
+  color: red;
+}
+
+.first-section > div:nth-child(1) p {
+  font-weight: normal;
+}
+#getting_started_with_rails {
+  color: black;
+  font-size: 2rem;
+}
+
+a {
+  text-underline: none;
+}
+
+.second-section {
+  margin-left: 9rem;
+  margin-right: 9rem;
+  /* margin-bottom: 20px; */
+}
+
+.second-section > p {
+  font-size: 1.2rem;
+  color: rgb(58, 55, 55);
+}
+
+.second-section ul li a {
+  color: rgb(189, 21, 21);
+
+}
+#guide_assumptions {
+  /* font-size: 2rem; */
+}
+a {
+  color: rgb(189, 21, 21);
+
+}
+.second-section > article {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: rgb(58, 55, 55);
+
+}
+
+.second-section ul li {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.mini-container {
+  width: 100%;
+  height: 100px;
+  background: rgb(245, 244, 208);
+  align-items: center;
+}
+.mini-container > article {
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(58, 55, 55);
+}
+.mini-container-2 {
+  width: 100%;
+  height: 100px;
+  background: rgb(238, 238, 232);
+}
+.mini-container-2 > p {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.mini {
+  height: 3rem;
+}
+.mini-container > article span {
+  background: #ffffff;
+  font-weight: 600;
+}
 /* media queries */
 @media screen and (max-height: 450px) {
   .sidenav {
